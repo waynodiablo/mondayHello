@@ -7,10 +7,16 @@ public class Main {
 
     private static void greeting() {
         String name = "Hello Wayne";
-        int len = name.length();
         System.out.println(name);
-        System.out.println(len);
+
     }
+
+    public static int greetLength() {
+        String name = "Hello Wayne";
+        int length = name.length();
+        return length;
+    }
+
 
 
     }
